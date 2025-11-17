@@ -1,12 +1,13 @@
-# 📊 Power BI Sales Dashboard
+# Sales Dashboard
 
-Ce projet présente un dashboard interactif réalisé avec Power BI, basé sur des données commerciale. Il permet d’analyser les performances par mois, les produits les plus vendus, les plus coûteux, les revenus générés, les bénéfices etc.
+Ce projet présente un dashboard interactif réalisé avec Power BI et python, basé sur des données commerciale. Il permet d’analyser les performances par mois, les produits les plus vendus, les plus coûteux, les revenus générés, les bénéfices etc.
 
 ## 📁 Contenu du dépôt
 
 - `pbix/` : Fichier Power BI complet (`.pbix`) avec rapport d'analyse (`.pdf`)
-- `data/` : Données sources (échantillon anonymisé si nécessaire)
+- `data/` : Données sources (dataset.xlsx pour power BI et ventes.csv pour python)
 - `assets/` : Captures d’écran du dashboard
+- `analysepython/` : Analyse similaire réalisée en Python (notebook Jupyter `.ipynb`)
 
 ## 📌 Fonctionnalités clés
 
@@ -20,9 +21,10 @@ Ce projet présente un dashboard interactif réalisé avec Power BI, basé sur d
 
 ## 🚀 Comment l'utiliser
 
-1. Télécharger le fichier `.pbix` depuis le dossier `pbix/`
-2. L’ouvrir dans Power BI Desktop
-3. Si nécessaire, modifier les chemins d’accès aux données locales
+1. Télécharger le fichier `.pbix` depuis le dossier `pbix/` et l’ouvrir dans Power BI Desktop.
+2. Ouvrir le notebook Python dans `analysepython/` avec Jupyter Notebook, JupyterLab ou VS Code.
+3. Installer les dépendances Python si nécessaire (ex. `pip install -r analysepython/requirements.txt` si le fichier existe).
+4. Adapter les chemins d’accès aux données locales si besoin.
 
 ## 📸 Aperçu
 
